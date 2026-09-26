@@ -10,3 +10,6 @@ coverage/
 Thumbs.db
 .vscode/
 "@ | Out-File -Encoding utf8 .gitignore
+# Build artifacts
+.vite/
+tsconfig.tsbuildinfo
